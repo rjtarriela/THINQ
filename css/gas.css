@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../img/selection-bg1.png);
+    background-size: cover;
+    background-color: #1B6E70;
+}
+
+.page-1 {
+    text-align: center;
+    background-color: #1B6E70;
+    padding: 16px 0px;
+}
+
+.gasContainer {
+    display: flex;
+    justify-content: center;
+    width: 958px;
+    height: 122px;
+    margin: auto;
+    background-color: #FFCB9E;
+    border-radius: 50px;
+}
+
+.gasTitle {
+    display: flex;
+    align-items: center;
+    margin-left: 59px;
+}
+
+.gasPic img {
+    margin-left: 49.44px;
+}
+
+.gasTitle h1 {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 36px;
+    width: 455.72px;
+    height: 59px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+/* End of Page 1 */
+
+.page-2 {
+    margin: auto;
+}
+
+.p2-box1 {
+    width: 1267px;
+    height: 988px;
+    margin: auto;
+}
+
+.p2-col {
+    width: 1242px;
+    height: 326px;
+    text-align: center;
+    line-height: 28px;
+    margin-bottom: 199px;
+    margin-top: 61px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p2-col p,
+.p2-col li {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 23px;
+    text-align: justify;
+}
+
+.p2-col ul {
+    padding-left: 33px;
+}
+
+.col2 {
+    display: flex;
+    justify-content: center;
+}
+
+.collegeDegree {
+    width: 868px;
+    height: 463px;
+}
+
+.collegeDegree p,
+.collegeDegree li {
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+.collegeDegree ul {
+    padding-left: 37px;
+}
+
+.themes {
+    width: 336px;
+    height: 236px;
+    margin-left: 63px;
+    margin-top: 81px;
+}
+
+.themes ol,
+.themes li,
+.themes p {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    text-align: justify;
+}
+
+.themes ul {
+    padding-left: 33px;
+}
+
+/* STRAND LINKS */
+
+.p2-box2 {
+    margin-top: 83px;
+}
+
+.p2-box2 h1 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.p2-box2 .strandLinks {
+    text-align: center;
+}
+
+.strandLinks {
+    display: flex;
+    justify-content: center;
+}
+
+.strandLinks img {
+    border: 1px solid black;
+}
+
+.strandLinks p {
+    width: 290px;
+    height: 77px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    margin: 25px auto;
+    font-style: normal;
+    color: black;
+}
+
+.strandLinks a {
+    cursor: pointer;
+}
+
+.strandLinks div {
+    margin-left: 14px;
+    margin-right: 14px;
+}

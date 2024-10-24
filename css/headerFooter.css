@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+li,
+a,
+p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 5%;
+    height: 70px;
+    background-color: #1B6E70;
+}
+
+header button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.logo {
+    order: 3;
+    margin-left: auto;
+    scale: 0.7;
+}
+
+nav {
+    order: 1;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+#buttonModal {
+    cursor: pointer;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li:nth-child(1) {
+    display: inline-block;
+    padding: 0px 20px 0px 0px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li a:hover {
+    color: #FFCB9E;
+}
+
+.contact {
+    order: 2;
+}
+
+header button {
+    padding: 9px 25px;
+    background-color: rgba(255, 203, 158, 1);
+    color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+}
+
+header button:hover {
+    background-color: rgba(255, 203, 158, 0.8);
+}
+
+footer {
+    background-color: #1B6E70;
+    height: 150px;
+    font-size: 32px;
+    margin-top: 288px;
+}
+
+footer p {
+    color: #FFFFFF;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+.footer4col {
+    display: flex;
+    justify-content: center;
+    padding: 30px 5% 0px;
+}
+
+.contactUs {
+    padding: 0px 50px;
+}
+
+.resources {
+    padding: 0px 50px;
+}
+
+.privacyPolicy {
+    padding: 0px 50px;
+}
+
+.page {
+    display: flex;
+    padding: 0px 50px;
+}
+
+.circles {
+    height: 40px;
+    width: 40px;
+    background-color: #cccccc;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.copyright p {
+    text-align: center;
+    color: #FFFFFF;
+}

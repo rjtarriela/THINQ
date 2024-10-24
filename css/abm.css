@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../img/selection-bg1.png);
+    background-size: cover;
+    background-color: #1B6E70;
+}
+
+.page-1 {
+    text-align: center;
+    background-color: #1B6E70;
+    padding: 16px 0px;
+}
+
+.abmContainer {
+    display: flex;
+    justify-content: center;
+    width: 958px;
+    height: 122px;
+    margin: auto;
+    background-color: #FFCB9E;
+    border-radius: 50px;
+}
+
+.abmTitle {
+    display: flex;
+    align-items: center;
+    margin-left: 64px;
+}
+
+.abmPic img {
+    margin-left: 44.44px;
+}
+
+.abmTitle h1 {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 36px;
+    width: 455.72px;
+    height: 83px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.page-2 {
+    margin: auto;
+}
+
+.p2-box1 {
+    width: 1302px;
+    height: 842px;
+    margin: auto;
+}
+
+.p2-col {
+    width: 1302px;
+    height: 401px;
+    display: flex;
+    align-items: center;
+    line-height: 28px;
+    margin-bottom: 61px;
+    margin-top: 61px;
+}
+
+.page-2 p {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 23px;
+    text-align: justify;
+}
+
+.col2 {
+    display: flex;
+    justify-content: center;
+}
+
+.collegeDegree {
+    width: 388px;
+    height: 348px;
+}
+
+.collegeDegree p,
+.collegeDegree li {
+    font-size: 23px;
+    font-style: italic;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 28px;
+    color: black;
+}
+
+.collegeDegree ul {
+    padding-left: 37px;
+}
+
+.themes {
+    width: 625px;
+    height: 380px;
+    margin-left: 124px;
+}
+
+.themes ol,
+.themes li,
+.themes p {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    text-align: justify;
+}
+
+.themes ul {
+    padding-left: 33px;
+}
+
+/* STRAND LINKS */
+
+.p2-box2 {
+    margin-top: 129px;
+}
+
+.p2-box2 h1 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.p2-box2 .strandLinks {
+    text-align: center;
+}
+
+.strandLinks {
+    display: flex;
+    justify-content: center;
+}
+
+.strandLinks img {
+    border: 1px solid black;
+}
+
+.strandLinks p {
+    width: 289px;
+    height: 77px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    margin: 25px auto;
+    font-style: normal;
+}
+
+.strandLinks a {
+    cursor: pointer;
+}
+
+.strandLinks div {
+    margin-left: 14px;
+    margin-right: 14px;
+}

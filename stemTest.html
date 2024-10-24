@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>THINQ</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/headerFooter.css">
+	<link rel="stylesheet" href="./css/selection.css">
+</head>
+
+<body>
+	<header>
+		<a href="index.html" class="logo"><img class="logo1" alt="logo1" src="./img/Logo3.png"></a>
+		<nav>
+			<ul class="nav-links">
+				<li><a id="buttonModal">STRANDS</a></li>
+
+				<div id="strandsModal" class="modal">
+
+					<!-- Modal content -->
+					<div class="modal-content">
+						<span class="close">&times;</span>
+						<div class="page1">
+							<div class="title">
+								<p>Choose Your Strand</p>
+							</div>
+							<div class="stem">
+								<img src="./img/STEM.png">
+								<div class="stem-text">
+									<div>
+										<p class="stem-title">STEM</p>
+										<div class="stemBgContainer">
+											<p class="stem-m">Science, Technology, Engineering and Mathematics.</p>
+										</div>
+									</div>
+									<a href="stemTest.html"><button>Take Test</button></a>
+								</div>
+							</div>
+						</div>
+						<div class="abm">
+							<div class="abm-text">
+								<div>
+									<p class="abm-title">ABM</p>
+									<div class="abmBgContainer">
+										<p class="abm-m">Accountancy, Business, and Management</p>
+									</div>
+								</div>
+								<a href="abmTest.html"><button>Take Test</button></a>
+							</div>
+							<img src="./img/ABM.png">
+						</div>
+						<div class="humss">
+							<img src="./img/HUMSS.png">
+							<div class="humss-text">
+								<div>
+									<p class="humss-title">HUMMS</p>
+									<div class="humssBgContainer">
+										<p class="humss-m">Humanities and Social Sciences</p>
+									</div>
+								</div>
+								<a href="humssTest.html"><button>Take Test</button></a>
+							</div>
+						</div>
+						<div class="gas">
+							<div class="gas-text">
+								<div>
+									<p class="gas-title">GAS</p>
+									<div class="gasBgContainer">
+										<p class="gas-m">General Academic Strand</p>
+									</div>
+								</div>
+								<a href="gasTest.html"><button>Take Test</button></a>
+							</div>
+							<img src="./img/GAS.png">
+						</div>
+						<div class="und">
+							<img src="./img/UND-img.png">
+							<div class="und-text">
+								<div>
+									<p class="und-title">UNDECIDED</p>
+									<div class="undBgContainer">
+										<p class="und-m">Haven't decided yet? Here is a result-based exam for you.</p>
+									</div>
+								</div>
+								<a href="randomizedTest.html"><button>Take Test</button></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<li><a href="index.html#syllabus">SYLLABUS</a></li>
+				<li><a href="index.html#about">ABOUT</a></li>
+			</ul>
+		</nav>
+		<a href="#footer" class="contact"><button>CONTACT</button></a>
+	</header>
+
+	<!-- ----------HOME---------- -->
+	<div class="home-box custom-box">
+		<h3>Instruction:</h3>
+		<p>You have <span class="total-question"></span> questions to answer, but remember, there's 25 minutes time
+			limit, and once you move to the next question, there's no going back, so answer each question carefully.<br>
+		</p>
+		<button class="btn" type="button" onclick="startQuiz()">Start Quiz</button>
+	</div>
+	<!-- ----------HOME---------- -->
+
+	<!-- ----------QUIZ---------- -->
+	<div class="quiz-box custom-box hide">
+		<div id="timer">Time: <span id="time-left">1500</span> seconds</div>
+		<div class="question-number">
+
+		</div>
+		<div class="question-text">
+
+		</div>
+		<div class="option-container">
+
+		</div>
+		<div class="next-question-btn hide">
+			<button type="button" class="btn" onclick="next()">Next</button>
+		</div>
+		<div class="answers-indicator">
+
+		</div>
+	</div>
+	<!-- ----------QUIZ---------- -->
+
+	<!-- ----------RESULT---------- -->
+	<div class="result-box custom-box hide">
+		<h1>Quiz Result</h1>
+		<table>
+			<tr>
+				<td>Total Question</td>
+				<td><span class="total-question"></span></td>
+			</tr>
+			<tr>
+				<td>Attempt</td>
+				<td><span class="total-attempt"></span></td>
+			</tr>
+			<tr>
+				<td>Correct</td>
+				<td><span class="total-correct"></span></td>
+			</tr>
+			<tr>
+				<td>Wrong</td>
+				<td><span class="total-wrong"></span></td>
+			</tr>
+			<tr>
+				<td>Percentage</td>
+				<td><span class="percentage"></span></td>
+			</tr>
+			<tr>
+				<td>Your Total Score</td>
+				<td><span class="total-score"></span></td>
+			</tr>
+		</table>
+
+		<button type="button" class="btn" onclick="tryAgainQuiz()">Try Again</button>
+		<form action="index.html" class="gohome">
+			<input type="submit" class="btn" onclick="goToHome()" value="Go to Home" />
+		</form>
+	</div>
+	<!-- ----------RESULT---------- -->
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="footer4col">
+			<div class="contactUs">
+
+				<p>Contact Us</p>
+				<p>+639390239963</p>
+				<p>info@thinq.com</p>
+			</div>
+			<div class="resources">
+				<p>Resources</p>
+			</div>
+			<div class="privacyPolicy">
+				<p>Privacy Policy</p>
+			</div>
+			<div class="page">
+				<div class="circles"></div>
+				<div class="circles"></div>
+				<div class="circles"></div>
+				<div class="circles"></div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>2023 ThinQ</p>
+		</div>
+	</footer>
+	<!-- Footer -->
+
+	<script src="./js/stemQuestions.js"></script>
+	<script src="./js/selectionTest.js"></script>
+	<script src="./js/modal.js"></script>
+</body>
+
+</html>
